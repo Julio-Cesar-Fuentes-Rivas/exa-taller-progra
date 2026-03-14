@@ -1,0 +1,55 @@
+h1{
+    color: white;
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+h2{
+    color: white;
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: right;
+    justify-content: right;
+}
+p{
+    color: black;
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.circulo{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    /* Circunferencia del circulo blanco */
+    border: 2px solid white;
+}
+/*Clase contenedor de Agenda/Topic y SAAS-0000*/
+.contenedor{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+    /*Cambiar el fondo del color del conetnedor, letras blancas y fondo rojo*/
+    background-color: red;
+    color: white;
+}
+/*Componente que agregara todos los elementos en un contenedor*/
+.componente{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+    border: 2px solid black;
+}
